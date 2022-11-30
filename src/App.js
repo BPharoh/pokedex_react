@@ -10,7 +10,7 @@ import './App.css';
 const RouterWrapper  = (props) => {
   const params = useParams();
 
-  return <Pokesingle params={params} {...props} />
+  return <Pokesingle params={params} {...props} /> //props can be used to pass properties
 
 };
 
